@@ -32,6 +32,7 @@ void ylik(double *probs, int *y, int *obs, int *items,
 	const int citems = *items;
 	const int cclasses = *classes;
 	const int cobs = *obs;
+	const double DOUBLE_XMAX;
 	const double *firstprobs = probs;
 
 	for (i=0;i<cobs;i++) {
